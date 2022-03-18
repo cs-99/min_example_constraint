@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find moveit_resources_panda_moveit_config)/launch/demo.launch"/>
+    <node name="min_example_constraint" pkg="min_example_constraint" type="min_example_constraint_node" respawn="false" output="screen"/>
+</launch>
